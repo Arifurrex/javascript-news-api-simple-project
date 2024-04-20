@@ -1,1 +1,1 @@
-# javascript-news-api-simple-project
+# javascript-project-2024
