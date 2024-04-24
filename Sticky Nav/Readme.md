@@ -1,4 +1,6 @@
-# link.hash
+# How to make sticky navigation
+
+### link.hash
 URL একটি ওয়েবপেজের জন্য একটি রাস্তার ঠিকানা যেখানে `link.hash` হলো একটি বিশেষ instruction / নির্দেশিকা যা ওয়েবপেজের নির্দিষ্ট এক অংশে যাওয়ার জন্য ব্যবহৃত হয়। 
 
 যেমন, ঠিকানা `https://example.com/page#section1`, `#section1` হ'ল বিশেষ নির্দেশিকা / instruction। এটা বলবে , "হে Browser, এই পৃষ্ঠাটি খোলার সময়, 'সেকশন ১' নামক অংশে scroll করুন।" 
