@@ -40,6 +40,8 @@ window.addEventListener('scroll', () => {
     });
 });
 
+### getBoundingClientRect()
+[`getBoundingClientRect()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) is a JavaScript method that returns the size of an element and its position relative to the viewport.
 
 ### link.hash
 URL একটি ওয়েবপেজের জন্য একটি রাস্তার ঠিকানা যেখানে `link.hash` হলো একটি বিশেষ instruction / নির্দেশিকা যা ওয়েবপেজের নির্দিষ্ট এক অংশে যাওয়ার জন্য ব্যবহৃত হয়। 
