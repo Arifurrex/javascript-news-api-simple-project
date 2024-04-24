@@ -1,3 +1,14 @@
+# Repository Navigation
+
+This repository contains the following files:
+
+- [index.html](index.html)
+- [style.css](style.css)
+- [script.js](script.js)
+
+
+
+
 ### জাভাস্ক্রিপ্ট নেভিগেশন কার্যক্রমের ব্যাখ্যা
 
 #### ধ্রুবক ইনিশিয়ালাইজেশন/Constants Initialization:
@@ -34,4 +45,5 @@
 10. `const removeBackgroundColorOnlink =()=>{ ... };`
     - এই ফাংশনটি প্রতিটি নেভিগেশন লিঙ্কের উপর পরিক্রমা করে এবং তাদের পিতা উপাদান থেকে "active" ক্লাসটি সরায়, প্রায় নেভিগেশনের ভিজুয়াল অবস্থানটি পুনঃস্থাপন করে।
 
-11. `const hideSection
+11. `const hideSection =()=>{ ... };`
+    - এই ফাংশনটি প্রতিটি `<section>` উপাদানের উপর পরিক্রমা করে এবং এগুলিতে "লুকানো" ক্লাসটি যোগ করে, পৃষ্ঠায়
