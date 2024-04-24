@@ -6,6 +6,41 @@
 [Link to style.html](style.css)
 [Link to script.js](script.js)
 
+## JavaScript Code Explanation
+
+```javascript
+const navElement = document.querySelector('nav');
+const navLink = navElement.querySelectorAll('a');
+const navPosition = navElement.getBoundingClientRect().top;
+
+// Adding a scroll event listener to the window
+window.addEventListener('scroll', () => {
+    // Getting the current scroll position
+    const scrollPosition = window.scrollY;
+    
+    // Making the navigation menu fixed by updating its top position
+    navElement.style.top = scrollPosition + 'px';
+
+    // Iterating over each navigation link
+    navLink.forEach(link => {
+        // Setting an offset for accurate positioning
+        const offset = 10;
+        
+        // Selecting the corresponding section element based on the link's hash value
+        const sectionElement = document.querySelector(link.hash);
+
+        // Checking if the current scroll position is within the range of each section
+        if (scrollPosition + offset > sectionElement.offsetTop && scrollPosition + offset < sectionElement.offsetTop + sectionElement.offsetHeight) {
+            // Adding the "active" class to the link if it corresponds to the currently viewed section
+            link.classList.add("active");
+        } else {
+            // Removing the "active" class from the link if it doesn't correspond to the currently viewed section
+            link.classList.remove("active");
+        }
+    });
+});
+
+
 ### link.hash
 URL একটি ওয়েবপেজের জন্য একটি রাস্তার ঠিকানা যেখানে `link.hash` হলো একটি বিশেষ instruction / নির্দেশিকা যা ওয়েবপেজের নির্দিষ্ট এক অংশে যাওয়ার জন্য ব্যবহৃত হয়। 
 
