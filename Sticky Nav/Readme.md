@@ -1,4 +1,9 @@
 # How to make sticky navigation
+## Navigation Menu
+
+- [index.html](index.html)
+- [style.css](style.css)
+- [script.js](script.js)
 
 ![Screenshot 2024-04-24 152135](https://github.com/Arifurrex/javascript-simple-project-2024/assets/48369328/f5298f07-f186-442a-bdaf-bac360642c0b)
 
