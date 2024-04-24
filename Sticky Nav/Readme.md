@@ -1,5 +1,7 @@
 # How to make sticky navigation
 
+![Screenshot 2024-04-24 152135](https://github.com/Arifurrex/javascript-simple-project-2024/assets/48369328/f5298f07-f186-442a-bdaf-bac360642c0b)
+
 ### link.hash
 URL একটি ওয়েবপেজের জন্য একটি রাস্তার ঠিকানা যেখানে `link.hash` হলো একটি বিশেষ instruction / নির্দেশিকা যা ওয়েবপেজের নির্দিষ্ট এক অংশে যাওয়ার জন্য ব্যবহৃত হয়। 
 
