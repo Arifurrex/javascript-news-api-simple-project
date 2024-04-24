@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+main nav{
+    width: 20%;
+    position:relative;
+}
+main nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem  ;
+}
+main nav ul li{
+    padding: 20px;
+    background: lightcyan;
+
+}
+a{
+ text-decoration:none;
+}
+nav a.active {
+    background-color: lightseagreen;
+    color: white;
+}
+article{
+    width: 80%;
+}
+section>*{
+    margin-bottom: 50px;
+}
