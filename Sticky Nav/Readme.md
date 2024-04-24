@@ -40,6 +40,8 @@ window.addEventListener('scroll', () => {
     });
 });
 
+# Refrence:
+
 ### getBoundingClientRect()
 [`getBoundingClientRect()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) is a JavaScript method that returns the size of an element and its position relative to the viewport.
 
