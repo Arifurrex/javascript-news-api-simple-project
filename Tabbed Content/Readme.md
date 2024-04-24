@@ -1,13 +1,13 @@
 ### জাভাস্ক্রিপ্ট নেভিগেশন কার্যক্রমের ব্যাখ্যা
 
-#### ধ্রুবক ইনিশিয়ালাইজেশন:
+#### ধ্রুবক ইনিশিয়ালাইজেশন/Constants Initialization:
 1. `const navList = document.querySelectorAll('a');`
-   - দস্তাবেজে সব এ্যাঙ্কর (`<a>`) উপাদানগুলি নির্বাচিত এবং তাদেরকে `navList` ধ্রুবকে সংরক্ষণ করা হয়।
+   - document এর সব এ্যাঙ্কর (`<a>`) উপাদানগুলি নির্বাচিত এবং তাদেরকে `navList` ধ্রুবকে/const এ store করা হয়।
 
 2. `const sectionElement = document.querySelectorAll('section');`
-   - দস্তাবেজে সব `<section>` উপাদানগুলি নির্বাচিত এবং তাদেরকে `sectionElement` ধ্রুবকে সংরক্ষণ করা হয়।
+   - document এর সব `<section>` উপাদানগুলি নির্বাচিত এবং তাদেরকে `sectionElement` ধ্রুবকে/const সংরক্ষণ করা হয়।
 
-#### ইভেন্ট লিস্টেনার সেটআপ:
+#### ইভেন্ট লিস্টেনার সেটআপ / Event Listener Setup :
 3. `navList.forEach(link=>{ ... });`
    - `forEach` পদ্ধতিটি ব্যবহার করে `navList` অ্যারের প্রতিটি এ্যাঙ্কর উপাদানের উপর পরিক্রমা করে।
 
