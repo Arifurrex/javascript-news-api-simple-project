@@ -48,3 +48,10 @@ const updateTimer = ()=>{
         displaySecond.textContent = `${seconds} seconds`;
   }
 }
+const storedTargetTime = localStorage.getItem('targetTime');
+
+if (storedTargetTime) {
+    targetTime = storedTargetTime;
+    updateTimer();
+    timerInterval = setInterval(updateTimer, 500);
+}
