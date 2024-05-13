@@ -4,10 +4,9 @@
 
 
 
-
-```markdown
-### Overview:
+## Overview:
 This JavaScript code generates a random hexadecimal color code and sets it as the background color of the webpage when a button is clicked. It's a simple demonstration of how to manipulate the DOM (Document Object Model) using JavaScript.
+
 
 ### JavaScript Code Breakdown:
 
