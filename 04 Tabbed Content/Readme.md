@@ -1,3 +1,8 @@
+# link https://tabbed-content-arifur.netlify.app/
+
+![Screenshot 2024-05-13 121048](https://github.com/Arifurrex/javascript-simple-project-2024/assets/48369328/a3f98f35-1f43-4763-b3a4-51591fa75552)
+
+
 # Repository Navigation
 
 This repository contains the following files:
