@@ -67,4 +67,3 @@ decrementButton.addEventListener("click", function() {
 ```
 ```
 
-This Markdown format should effectively present the explanation of your JavaScript code in your GitHub README. You can paste it directly into your README.md file. Let me know if you need further assistance!
