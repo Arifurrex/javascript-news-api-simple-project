@@ -1,3 +1,8 @@
+# link https://timer-js-arifur.netlify.app/
+
+
+![Screenshot 2024-05-13 130124](https://github.com/Arifurrex/javascript-simple-project-2024/assets/48369328/63fd9b40-aca8-42df-b949-f29451ff171f)
+
 ## Date()  
 this will return a string of date 'Tue May 07 2024 20:32:27 GMT+0600 (Bangladesh Standard Time)'
 
